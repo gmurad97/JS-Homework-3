@@ -11,10 +11,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #535c68;
+    background-color: #95a5a6;
 }
 
-fieldset{
+fieldset {
     font-family: "Courier";
     font-size: 18px;
     font-weight: bold;
@@ -41,4 +41,17 @@ fieldset{
     user-select: none;
     cursor: pointer;
     color: #000000;
+}
+
+button[type="button"] {
+    font-family: "Courier";
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 16px;
+    padding: 8px;
 }
