@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #535c68;
+}
+
+fieldset{
+    font-family: "Courier";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #000000;
+    outline: none;
+    margin-top: 64px;
+    padding: 32px;
+}
+
+.variant {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.variant>span {
+    font-family: "Courier";
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    user-select: none;
+    cursor: pointer;
+    color: #000000;
+}
